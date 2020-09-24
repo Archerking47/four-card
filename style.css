@@ -17,7 +17,7 @@ body {
   margin: 0 auto;
   text-align: center;
   margin-top: 30px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 
@@ -28,9 +28,7 @@ body {
   padding-bottom: 50px;
 }
 
-.left {
-  width: 372px;
-{
+
 
 /* header */
 h1, h2 {
@@ -80,7 +78,7 @@ section p {
 
 section img {
   position: relative;
-  top: 1em;
+  margin-top: 3.5em;
   left: 80%;
   width: 20%;
   /* align-self: flex-end; */
@@ -90,8 +88,8 @@ section img {
 section {
   box-shadow: 0px 15px 15.64px 1.36px rgba(125, 160, 204, 0.2);
   height: 100%;
-  max-width: 342px;
-  max-height: 245px;
+  width: 342px;
+  height: 245px;
 
 }
 
@@ -106,7 +104,7 @@ section {
 #team-builder {
   border-top: 5px solid hsl(0, 78%, 62%);
   border-radius: 8px;
-  margin: 30px auto 0;
+  margin: 0 auto;
 }
 
 #karma {
@@ -130,6 +128,10 @@ section {
 
   #supervisor, #calculator {
     margin: 30px auto 0;
+  }
+
+  #team-builder {
+    margin-top: 30px;
   }
 
   h1, h2 {
@@ -163,5 +165,8 @@ section {
     letter-spacing: 0;
     line-height: 16px;
   }
-}
 
+  section img {
+    margin-top: 1.5em;
+  }
+}
